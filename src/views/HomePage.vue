@@ -1,6 +1,6 @@
 
 <script lang="ts" setup>
-import { IonContent, IonHeader, IonFooter, IonButtons, IonButton, IonPage, IonTitle, IonToolbar, IonFab,IonFabButton,IonIcon, actionSheetController, isPlatform } from '@ionic/vue';
+import { IonContent, IonHeader, IonFooter, IonButtons, IonButton, IonPage, IonTitle, IonToolbar, IonFab,IonFabButton,IonIcon, actionSheetController, isPlatform ,IonToast  } from '@ionic/vue';
   
 const openALAERT  =()=>{
   alert('hi')
@@ -34,8 +34,6 @@ const  alertButtons = ['ok done']
     
     <ion-content :fullscreen="true">
       <ion-button  @click="openALAERT">Disabled</ion-button>
-      
-
     <ion-button id="present-alert">Click Me</ion-button>
       <ion-alert
         trigger="present-alert"
@@ -44,7 +42,9 @@ const  alertButtons = ['ok done']
         message="This is an alert!"
         :buttons="alertButtons"
       ></ion-alert>
-
+      <ion-button id="open-toast" expand="block">Open</ion-button>
+    <p>This toast example uses triggers to automatically open a toast when the button is clicked.</p>
+    <ion-toast trigger="open-toast" message="This toast will disappear after 5 seconds" :duration="5000"></ion-toast>
 
 
     </ion-content>
