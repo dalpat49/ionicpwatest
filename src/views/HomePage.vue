@@ -1,6 +1,6 @@
 
 <script lang="ts" setup>
-import { IonContent, IonHeader, IonFooter, IonButtons, IonButton, IonPage, IonTitle, IonToolbar, IonFab,IonFabButton,IonIcon, actionSheetController, isPlatform ,IonToast  } from '@ionic/vue';
+import { IonContent, IonHeader, IonFooter, IonButtons, IonButton, IonPage, IonTitle, IonToolbar, IonFab,IonFabButton,IonIcon, actionSheetController, isPlatform ,IonToast , IonAlert  } from '@ionic/vue';
   
 const openALAERT  =()=>{
   alert('hi')
