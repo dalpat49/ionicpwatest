@@ -26,7 +26,7 @@
         "purpose": "maskable"
       }
     ],
-    "start_url": ".",
+    "start_url": "https://marvelous-vacherin-6086af.netlify.app/tabs/tab1/",
     "display": "standalone",
     "background_color": "#000000"
   }
