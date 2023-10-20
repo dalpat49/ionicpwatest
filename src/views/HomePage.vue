@@ -487,8 +487,7 @@ const  alertButtons = ['ok done']
 
 </template>
 
-<style scoped>
-<style lang="scss">
+<style>
 * {
   border: 0;
   box-sizing: border-box;
