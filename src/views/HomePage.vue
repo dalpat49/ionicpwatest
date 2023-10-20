@@ -1,10 +1,14 @@
 
 <script lang="ts" setup>
+import {ref} from 'vue'
 import { IonContent, IonHeader, IonFooter, IonButtons, IonButton, IonPage, IonTitle, IonToolbar, IonFab,IonFabButton,IonIcon, actionSheetController, isPlatform ,IonToast , IonAlert  } from '@ionic/vue';
   
+
+const isshown = ref(false);
 const openALAERT  =()=>{
-  alert('hi')
+  isshown.value = true
 }
+
 
 const  alertButtons = ['ok done']
 
@@ -33,10 +37,11 @@ const  alertButtons = ['ok done']
 
     
     <ion-content :fullscreen="true">
-      <ion-button  @click="openALAERT">Disabled</ion-button>
-    <ion-button id="present-alert">Click Me</ion-button>
+      <ion-button  >Disabled</ion-button>
+    <ion-button @click="openALAERT" >Click Me</ion-button>
       <ion-alert
         trigger="present-alert"
+        v-model="isshown"
         header="Alert"
         sub-header="Important message"
         message="This is an alert!"
