@@ -1,9 +1,9 @@
 
 <script lang="ts" setup>
 import {ref} from 'vue'
-import { IonContent, IonHeader, IonFooter, IonButtons, IonButton, IonPage, IonTitle, IonToolbar, IonFab,IonFabButton,IonIcon, actionSheetController, isPlatform ,IonToast , IonAlert  } from '@ionic/vue';
+import { IonContent, IonHeader, IonFooter, IonButtons, IonButton, IonPage, IonTitle, IonToolbar, IonFab,IonFabButton,IonIcon, actionSheetController, isPlatform ,IonToast , IonAlert ,IonLabel,   IonTabs ,IonTabBar, IonTabButton } from '@ionic/vue';
   
-
+import { calendar, informationCircle, map, personCircle } from 'ionicons/icons';
 const isshown = ref(false);
 const openALAERT  =()=>{
   if(isshown.value == false){
@@ -45,6 +45,7 @@ const  alertButtons = ['ok done']
     
     <ion-content :fullscreen="true">
       <IonButton  >Disabled</IonButton>
+      <h1>dalpat</h1>
     <IonButton @click="openALAERT" >Click Me</IonButton>
       <IonAlert
         :is-open="isshown"
@@ -54,14 +55,13 @@ const  alertButtons = ['ok done']
         :buttons="alertButtons"
         @didDismiss="openALAERT"
       ></IonAlert>
-      <ion-button id="open-toast" expand="block">Open</ion-button>
-    <p>This toast example uses triggers to automatically open a toast when the button is clicked.</p>
-    <ion-toast trigger="open-toast" message="This toast will disappear after 5 seconds" :duration="5000"></ion-toast>
 
 
     </ion-content>
+    
    
   </ion-page>
+
 </template>
 
 <style scoped>
