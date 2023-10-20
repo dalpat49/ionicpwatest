@@ -6,7 +6,14 @@ import { IonContent, IonHeader, IonFooter, IonButtons, IonButton, IonPage, IonTi
 
 const isshown = ref(false);
 const openALAERT  =()=>{
-  isshown.value = true
+  if(isshown.value == false){
+    isshown.value = true
+
+  }
+  else{
+    isshown.value = false
+
+  }
 }
 
 
@@ -37,16 +44,16 @@ const  alertButtons = ['ok done']
 
     
     <ion-content :fullscreen="true">
-      <ion-button  >Disabled</ion-button>
-    <ion-button @click="openALAERT" >Click Me</ion-button>
-      <ion-alert
-        trigger="present-alert"
-        v-model="isshown"
+      <IonButton  >Disabled</IonButton>
+    <IonButton @click="openALAERT" >Click Me</IonButton>
+      <IonAlert
+        :is-open="isshown"
         header="Alert"
         sub-header="Important message"
         message="This is an alert!"
         :buttons="alertButtons"
-      ></ion-alert>
+        @didDismiss="openALAERT"
+      ></IonAlert>
       <ion-button id="open-toast" expand="block">Open</ion-button>
     <p>This toast example uses triggers to automatically open a toast when the button is clicked.</p>
     <ion-toast trigger="open-toast" message="This toast will disappear after 5 seconds" :duration="5000"></ion-toast>
