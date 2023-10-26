@@ -43,119 +43,108 @@ const  alertButtons = ['ok done']
     </ion-header>
 
     
-    <ion-content :fullscreen="true">
-      <!-- <IonButton  >Disabled</IonButton> -->
-      <h1>Abou page</h1>
-      <ion-list>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-label>Item Label</ion-label>
-        </ion-item>
-        </ion-list>
-
-
-    </ion-content>
+ <ul>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+    <li>huhdsusd</li>
+ </ul>
     
    
   </ion-page>
