@@ -1,7 +1,7 @@
 
 <script lang="ts" setup>
 import {ref} from 'vue'
-import { IonContent, IonHeader, IonFooter, IonButtons, IonButton, IonPage, IonTitle, IonToolbar, IonFab,IonFabButton,IonIcon, actionSheetController, isPlatform ,IonToast , IonAlert ,IonLabel,   IonTabs ,IonTabBar, IonTabButton } from '@ionic/vue';
+import { IonContent, IonHeader, IonFooter, IonButtons, IonButton, IonPage, IonTitle,IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonToolbar, IonFab,IonFabButton,IonIcon, actionSheetController, isPlatform ,IonToast , IonAlert ,IonLabel,   IonTabs ,IonTabBar, IonTabButton } from '@ionic/vue';
   
 import { calendar, informationCircle, map, personCircle } from 'ionicons/icons';
 const isshown = ref(false);
@@ -43,108 +43,129 @@ const  alertButtons = ['ok done']
     </ion-header>
 
     
- <ul>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
-    <li>huhdsusd</li>
- </ul>
+    <ion-content >
+      <!-- <IonButton  >Disabled</IonButton> -->
+      <h1>Abou page</h1>
+      <ion-list>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item Label</ion-label>
+        </ion-item>
+        </ion-list>
+
+        <ion-card>
+    <ion-card-header>
+      <ion-card-title>Card Title</ion-card-title>
+      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      Here's a small text description for the card content. Nothing more, nothing less.
+    </ion-card-content>
+  </ion-card>
+
+    </ion-content>
     
    
   </ion-page>
